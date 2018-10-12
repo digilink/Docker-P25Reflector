@@ -13,6 +13,8 @@ You have two options to deploy this:
 1. Clone and build locally
 2. Pull from docker hub --placeholder-- (will upload to docker hub once finalized)
 
+I am using a Digital Ocean droplet with 1GB of RAM and 1 vCPU. I deployed the Docker One-click app for ease of deployment. 
+
 ## Original README
 
 I wanted a simple way to quickly deploy P25Reflectors to create several talk groups on our local MMDVM driven P25 repeater.
