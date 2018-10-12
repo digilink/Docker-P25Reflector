@@ -18,7 +18,7 @@ I am using a Digital Ocean droplet with 1GB of RAM and 1 vCPU. I deployed the Do
 If you want to build this locally: 
 
 	git clone --
-	docker build . -t k1lnx/p25reflector (note the tag can be anything you like, this is an example and also optional)\
+	docker build . -t k1lnx/p25reflector (note the tag can be anything you like, this is an example and also optional)
 
 ## Original README
 
