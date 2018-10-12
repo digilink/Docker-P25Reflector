@@ -23,6 +23,7 @@ If you want to build this locally:
 	docker run --name TG1234 -id -p 41000:41000/udp -p 80:80/tcp k1lnx/p25reflector (the name can be anything, this will uniquely identify the container. I use talkgroup numbers per the original example)
 	
 If you wish to attach to a bash shell inside the container: 
+
 	docker exec -it <container name> /bin/bash (<container name> is the name or id of the container you created)
 	
 ## Original README
