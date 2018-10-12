@@ -1,5 +1,19 @@
 # A P25Reflector Living in a Docker Container
 
+This is based off KR0SIV's excellent work. I added the P25 Reflector dashboard, and the base image is Debian latest vs. Ubuntu. 
+
+## Credits
+
+P25 reflector in a docker container: https://github.com/KR0SIV/Docker-P25Reflector
+P25 dashboard: https://github.com/N4IRS/MMDVM-Install/tree/master/P25/P25Reflector-Dashboard
+
+You have two options to deploy this: 
+
+1. Clone and build locally
+2. Pull from docker hub --placeholder-- (will upload to docker hub once finalized)
+
+## Original README
+
 I wanted a simple way to quickly deploy P25Reflectors to create several talk groups on our local MMDVM driven P25 repeater.
 The reflector was written by https://github.com/g4klx/P25Clients I just compiled it and wrapped it into a docker container for ease of deployment.
 
