@@ -11,6 +11,7 @@ RUN apt-get install build-essential -y
 RUN apt-get install libstdc++6 -y
 RUN apt-get install lighttpd -y
 RUN apt-get install php7.0-cgi -y
+RUN apt-get install nano -y
 
 COPY P25Reflector /P25Reflector
 COPY P25Reflector.ini /etc/P25Reflector.ini
