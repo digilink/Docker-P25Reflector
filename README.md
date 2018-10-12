@@ -17,9 +17,14 @@ I am using a Digital Ocean droplet with 1GB of RAM and 1 vCPU. I deployed the Do
 
 If you want to build this locally: 
 
-	git clone --
+	git clone https://github.com/digilink/Docker-P25Reflector.git
+	cd Docker-P25Reflector
 	docker build . -t k1lnx/p25reflector (note the tag can be anything you like, this is an example and also optional)
-
+	docker run --name TG1234 -id -p 41000:41000/udp -p 80:80/tcp k1lnx/p25reflector (the name can be anything, this will uniquely identify the container. I use talkgroup numbers per the original example)
+	
+If you wish to attach to a bash shell inside the container: 
+	docker exec -it <container name> /bin/bash (<container name> is the name or id of the container you created)
+	
 ## Original README
 
 I wanted a simple way to quickly deploy P25Reflectors to create several talk groups on our local MMDVM driven P25 repeater.
