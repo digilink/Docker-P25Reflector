@@ -39,7 +39,7 @@ include "version.php";
   </head>
   <body>
   <div class="page-header" style="position:relative;">
-  <h1><center>  <?php echo getConfigItem("Info", "Name", $configs); ?> / <?php echo getConfigItem("Info", "Description", $configs); ?></center></h1>
+  <h1><center>  <?php echo getConfigItem("Info", "Name", $configs); ?> P25Reflector Dashboard <?php echo getConfigItem("Info", "Description", $configs); ?></center></h1>
   <?php
   if (defined("LOGO")) {
 ?>
