@@ -11,7 +11,7 @@ P25 dashboard: https://github.com/N4IRS/MMDVM-Install/tree/master/P25/P25Reflect
 You have two options to deploy this: 
 
 1. Clone and build locally
-2. Pull from docker hub --placeholder-- (will upload to docker hub once finalized)
+2. Pull from docker hub: docker pull digilink/docker-p25reflector
 
 I am using a Digital Ocean droplet with 1GB of RAM and 1 vCPU. I deployed the Docker One-click app for ease of deployment. 
 
@@ -25,6 +25,8 @@ If you want to build this locally:
 If you wish to attach to a bash shell inside the container: 
 
 	docker exec -it <container name> /bin/bash (<container name> is the name or id of the container you created)
+	
+Please note that the P25Reflector dashboard may need some work, it "mostly" works from my limited testing. If you spot anything broken please open an issue and/or pull request. 
 	
 ## Original README
 
