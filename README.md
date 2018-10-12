@@ -15,6 +15,11 @@ You have two options to deploy this:
 
 I am using a Digital Ocean droplet with 1GB of RAM and 1 vCPU. I deployed the Docker One-click app for ease of deployment. 
 
+If you want to build this locally: 
+
+	git clone --
+	docker build . -t k1lnx/p25reflector (note the tag can be anything you like, this is an example and also optional)\
+
 ## Original README
 
 I wanted a simple way to quickly deploy P25Reflectors to create several talk groups on our local MMDVM driven P25 repeater.
