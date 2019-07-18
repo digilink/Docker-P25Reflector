@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM debian:latest
+FROM debian:stretch
 MAINTAINER Stephen Brown - K1LNX "k1lnx@k1lnx.net"
 
 WORKDIR /
