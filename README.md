@@ -1,4 +1,4 @@
-# A P25Reflector Living in a Docker Container
+# A P25Reflector Living in a Docker Container - ARM version for Raspberry Pi
 
 This is based off KR0SIV's excellent work. I added the P25 Reflector dashboard, and the base image is Debian latest vs. Ubuntu. 
 
