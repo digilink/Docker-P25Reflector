@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM debian:stretch
+FROM arm32v7/debian:stretch
 MAINTAINER Stephen Brown - K1LNX "k1lnx@k1lnx.net"
 
 WORKDIR /
